@@ -343,6 +343,36 @@ The comparative and categorical analysis of 50 evaluated LLMs on the AgentDrive-
 
 The figure visualizes the relationship between the Situational Awareness Score (SAS) and the Safety Compliance Rate (SCR) for the top models ranked by Overall Accuracy from the previous Table. The upper-right region of the scatter plot denotes the ideal operational zone, where models achieve both high situational awareness and strong safety compliance.
 
+<h2 align="center">📖 Citation</h2>
+
+If you use <b>AgentDrive</b> or any of its benchmark datasets in your research, please cite it as:
+
+```bibtex
+@misc{Ferrag2025AgentDrive,
+  title = {AgentDrive: An Open Benchmark Dataset for Agentic AI Reasoning with LLM-Generated Scenarios in Autonomous Systems},
+  author = {Mohamed Amine Ferrag, Abderrahmane Lakas, Merouane Debbah},
+  howpublished = {GitHub repository},
+  year = {2025},
+  note = {Available at: \url{https://github.com/maferrag/AgentDrive}},
+  url = {https://github.com/maferrag/AgentDrive}
+}
+```
+
+
+<h2 align="center">📫 Contact</h2>
+
+<p align="center">
+  <b>Dr. Mohamed Amine Ferrag</b><br>
+  Associate Professor, United Arab Emirates University (UAEU)<br><br>
+
+  📧 <a href="mailto:mohamed.ferrag@uaeu.ac.ae">mohamed.ferrag@uaeu.ac.ae</a> |
+  <a href="mailto:mohamed.amine.ferrag@gmail.com">mohamed.amine.ferrag@gmail.com</a><br><br>
+
+  🌐 <a href="https://scholar.google.fr/citations?user=IkPeqxMAAAAJ&hl=fr&oi=ao">Google Scholar</a> |
+  🔗 <a href="https://www.scopus.com/authid/detail.uri?authorId=56115001200">Scopus</a> |
+  🧭 <a href="https://www.webofscience.com/wos/author/rid/M-2909-2016">Web of Science</a> |
+  💼 <a href="https://www.linkedin.com/in/mohamed-amine-ferrag-phd-36390243/">LinkedIn</a>
+</p>
 
 
 
