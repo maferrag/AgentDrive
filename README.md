@@ -14,7 +14,7 @@ We conducted a large-scale evaluation of **fifty leading LLMs** on the AgentDriv
 [![Paper](https://img.shields.io/badge/paper-PDF-red)](link-to-paper)
 
 ## Available Datasets
-There are currently three types of datasets available: **AgentDrive-Gen**, **AgentDrive-Sim**, and AgentDrive-MCQ.
+There are currently three types of datasets available: **AgentDrive-Gen**, **AgentDrive-Sim**, and **AgentDrive-MCQ**.
 
 - **AgentDrive-Gen**: 300K structured, simulation-ready JSON scenarios across seven axes (scenario type, driver behavior, environment, road layout, objective, difficulty, traffic density).
 
@@ -149,9 +149,11 @@ There are currently three types of datasets available: **AgentDrive-Gen**, **Age
 ```
 </details>
 
-<a href="https://github.com/username/repo-name/raw/main/datasets/LLM-NodeJS-small.zip" download>
-📂 <b>Download LLM-NodeJS Small Dataset (ZIP)</b>
+
+<a href="[https://github.com/maferrag/AgentDrive/tree/main/data/AgentDrive-Gen](https://github.com/maferrag/AgentDrive/tree/main/data/AgentDrive-Gen)" download>
+📂 <b>Download AgentDrive-Gen Dataset (ZIP)</b>
 </a>
+
 
 - **AgentDrive-Sim**: Executed rollouts with surrogate safety metrics (e.g., min-TTC) and categorical outcomes: `safe_goal`, `safe_stop`, `inefficient`, `unsafe`.
 
@@ -178,6 +180,11 @@ There are currently three types of datasets available: **AgentDrive-Gen**, **Age
 
 ```
 </details>
+
+
+<a href="[https://github.com/maferrag/AgentDrive/tree/main/data/AgentDrive-Sim](https://github.com/maferrag/AgentDrive/tree/main/data/AgentDrive-Sim)" download>
+📂 <b>Download AgentDrive-Sim Dataset (ZIP)</b>
+</a>
 
 - **AgentDrive-MCQ**: 100K multiple-choice questions spanning five styles: `physics`, `policy`, `hybrid`, `scenario`, `comparative`.
 
@@ -221,6 +228,10 @@ There are currently three types of datasets available: **AgentDrive-Gen**, **Age
 ```
 </details>
 
+
+<a href="[https://github.com/maferrag/AgentDrive/tree/main/data/AgentDrive-Sim](https://github.com/maferrag/AgentDrive/tree/main/data/AgentDrive-Sim)" download>
+📂 <b>Download AgentDrive-MCQ Dataset (ZIP)</b>
+</a>
 
 ## AgentDrive - Architecture Design
 
