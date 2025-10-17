@@ -1,0 +1,7 @@
+style,total,answered,correct,incorrect,accuracy
+comparative,40,40,0,40,0.0
+hybrid,40,40,0,40,0.0
+physics,40,40,0,40,0.0
+policy,40,40,0,40,0.0
+scenario,40,40,3,37,0.075
+ALL,200,200,3,197,0.015

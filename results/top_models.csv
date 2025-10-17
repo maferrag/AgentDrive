@@ -1,6 +1,52 @@
-Model,Comparative,Hybrid,Physics,Policy,Scenario,Overall
-ChatGPT 4o,90.0,72.5,55.0,100.0,95.0,82.5
-GPT-5 Chat,92.5,70.0,50.0,100.0,92.5,81.0
-Qwen3 235B A22B (2507),92.5,60.0,67.5,87.5,97.5,81.0
-Mistral Medium 3.1,95.0,60.0,52.5,97.5,95.0,80.0
-GPT-4.1 Mini,90.0,55.0,50.0,95.0,97.5,77.5
+Model,Company,Size,License,Comparative,Hybrid,Physics,Policy,Scenario,Overall
+ChatGPT 4o,OpenAI,N/A,Proprietary,90.0,72.5,55.0,100.0,95.0,82.5
+GPT-5 Chat,OpenAI,N/A,Proprietary,92.5,70.0,50.0,100.0,92.5,81.0
+Qwen3 235B A22B (2507),Alibaba,235B,Open,92.5,60.0,67.5,87.5,97.5,81.0
+Mistral Medium 3.1,Mistral AI,N/A,Proprietary,95.0,60.0,52.5,97.5,95.0,80.0
+GPT-4.1 Mini,OpenAI,N/A,Proprietary,90.0,55.0,50.0,95.0,97.5,77.5
+GPT-4.1,OpenAI,N/A,Proprietary,90.0,50.0,52.5,90.0,95.0,75.5
+Phi 4 Reasoning Plus,Microsoft,14B,Open,95.0,45.0,47.5,92.5,97.5,75.5
+Gemini 2.5 Flash,Google,391B,Proprietary,92.5,65.0,32.5,92.5,95.0,75.5
+Qwen3 Max,Alibaba,N/A,Open,95.0,52.5,47.5,95.0,95.0,77.0
+ERNIE 4.5 300B A47B,Baidu,300B,Open,85.0,45.0,52.5,95.0,97.5,75.0
+DeepSeek Chat V3 (0324),DeepSeek,685B,Open,77.5,55.0,45.0,95.0,95.0,73.5
+GPT-4o (2024-11-20),OpenAI,N/A,Proprietary,95.0,55.0,45.0,85.0,95.0,75.0
+Qwen3 Next 80B A3B Ins,Alibaba,80B,Open,82.5,52.5,40.0,95.0,95.0,73.0
+Kimi Dev 72B,Moonshot AI,72B,Open,80.0,57.5,42.5,87.5,92.5,72.0
+Hermes 3 (Llama 3.1 405B),Nous Research,405B,Open,82.5,40.0,57.5,87.5,90.0,71.5
+Llama 3.1 70B Instruct,Meta,70B,Open,92.5,52.5,57.5,52.5,97.5,70.5
+Llama-109B-MoE,DeepCogito,109B,Open,87.5,52.5,45.0,67.5,97.5,70.0
+Kimi K2 (0905),Moonshot AI,1T,Open,85.0,50.0,37.5,80.0,95.0,69.5
+Grok 3 Mini,xAI,N/A,Proprietary,82.5,42.5,37.5,87.5,97.5,69.5
+DeepSeek V3.1 Terminus,DeepSeek,N/A,Open,85.0,32.5,47.5,85.0,92.5,68.5
+Grok 4 Fast,xAI,N/A,Proprietary,87.5,30.0,42.5,87.5,90.0,67.5
+Kimi K2,Moonshot AI,1T,Open,85.0,32.5,37.5,90.0,92.5,67.5
+DeepSeek V3.2 Exp,DeepSeek,N/A,Open,85.0,32.5,55.0,75.0,90.0,67.5
+Claude 3.7 Sonnet (Thinking),Anthropic,N/A,Proprietary,92.5,40.0,65.0,42.5,95.0,67.0
+Claude Opus 4.1,Anthropic,N/A,Proprietary,92.5,42.5,10.0,95.0,92.5,66.5
+GPT-4.1 Nano,OpenAI,N/A,Proprietary,87.5,17.5,35.0,97.5,90.0,65.5
+Gemma 3 12B IT,Google,12B,Open,57.5,50.0,50.0,70.0,85.0,62.5
+Llama 3.3 70B Instruct,Meta,70B,Open,90.0,47.5,55.0,27.5,95.0,63.0
+Qwen Turbo,Alibaba,N/A,Open,87.5,22.5,30.0,75.0,90.0,61.0
+Nova Micro V1,Amazon,N/A,Proprietary,75.0,15.0,35.0,90.0,87.5,60.5
+Phi 3 Medium 128K Instruct,Microsoft,14B,Open,82.5,20.0,30.0,75.0,90.0,59.5
+Gemma 3 27B IT,Google,27B,Open,92.5,27.5,35.0,35.0,97.5,57.5
+OLMo 2 32B Instruct,AllenAI,32B,Open,57.5,25.0,45.0,62.5,90.0,56.0
+GPT-4o Mini,OpenAI,N/A,Proprietary,85.0,20.0,52.5,30.0,90.0,55.5
+GPT-4o Mini (2024-07-18),OpenAI,N/A,Proprietary,85.0,20.0,52.5,25.0,90.0,54.5
+WizardLM 2 8×22B,Microsoft,176B,Open,60.0,45.0,45.0,25.0,90.0,53.0
+Claude Sonnet 4.5,Anthropic,468B,Proprietary,75.0,0.0,0.0,85.0,95.0,51.0
+Llama 4 Scout,Meta,17B,Open,85.0,22.5,20.0,25.0,92.5,49.0
+LFM 3B,Liquid AI,3B,Open,67.5,25.0,40.0,12.5,92.5,47.5
+AFM 4.5B,Arcee AI,4.5B,Open,62.5,27.5,25.0,32.5,90.0,47.5
+Llama 4 Maverick,Meta,17B,Open,77.5,2.5,5.0,55.0,95.0,47.0
+Command R7B (12-2024),Cohere,7B,Open,80.0,7.5,27.5,20.0,95.0,46.0
+Llama 3.1 8B Instruct,Meta,8B,Open,62.5,20.0,27.5,10.0,90.0,42.0
+Qwen 2.5 7B Instruct,Alibaba,7B,Open,47.5,12.5,20.0,50.0,57.5,37.5
+Llama 3.2 3B Instruct,Meta,3B,Open,52.5,7.5,35.0,7.5,80.0,36.5
+Llama 3.2 1B Instruct,Meta,1B,Open,62.5,10.0,30.0,7.5,72.5,36.5
+Mistral Nemo,Mistral AI,12B,Open,65.0,5.0,12.5,10.0,90.0,36.5
+GPT-3.5 Turbo Instruct,OpenAI,N/A,Proprietary,52.5,5.0,27.5,5.0,82.5,34.5
+GLM 4.6,Z-AI,N/A,Open,60.0,5.0,2.5,45.0,37.5,30.0
+GPT-OSS-120B,OpenAI,120B,Open,22.5,5.0,10.0,10.0,10.0,11.5
+GPT-OSS-20B,OpenAI,20B,Open,17.5,7.5,0.0,15.0,7.5,
