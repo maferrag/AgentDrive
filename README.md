@@ -16,16 +16,6 @@ AgentDrive unifies **generative scenario synthesis**, **simulation-grounded safe
 
 > See detailed pages at **`docs/index.md`** and **`docs/results.md`**.
 
-## Quick start
-```bash
-# clone
-git clone https://github.com/USER/AgentDrive.git
-cd AgentDrive
-
-# (optional) setup Python env
-python -m venv .venv && source .venv/bin/activate
-pip install -r requirements.txt  # if you add one later
-
 # open the site locally (Jekyll) or push and enable GitHub Pages
 ```
 
@@ -40,13 +30,7 @@ A small excerpt of the leaderboard is shown below. Full tables live in [`docs/re
 | Mistral Medium 3.1 | 95.0 | 60.0 | 52.5 | 97.5 | 95.0 | 80.0 |
 | GPT-4.1 Mini | 90.0 | 55.0 | 50.0 | 95.0 | 97.5 | 77.5 |
 
-## How to reproduce
-- Scripts will be added under `scripts/` for data parsing, evaluation, and plotting.
-- We recommend publishing large artifacts via Git LFS or a public cloud bucket, then referencing them from `data/` README files.
 
 ## Cite
-Please cite the paper and this repository (see `CITATION.cff`).
 
 ---
-
-*This repository is generated from a starter template; replace `USER` and links, add your artifacts, and push to GitHub with Pages enabled (Settings → Pages → Build and deployment → Deploy from Branch → `/` root or `/docs`).*
