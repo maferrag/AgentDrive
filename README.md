@@ -1,6 +1,6 @@
 # AgentDrive 
 
-<img src="Images/AgentDrive.jpg" width="50%">
+<img src="Images/AgentDrive2.jpg" width="100%">
 
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
 [![GitHub Pages](https://img.shields.io/badge/site-online-brightgreen)]([https://USER.github.io/AgentDrive](https://github.com/maferrag/AgentDrive/))
