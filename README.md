@@ -28,6 +28,8 @@ We conducted a large-scale evaluation of fifty leading LLMs on the AgentDrive_MC
   "another": "example"
 }
 
+</details> ```
+
 
 ## AgentDrive - Architecture Design
 
