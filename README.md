@@ -13,7 +13,9 @@ We conducted a large-scale evaluation of fifty leading LLMs on the AgentDrive_MC
 [![GitHub Pages](https://img.shields.io/badge/site-online-brightgreen)]([https://USER.github.io/AgentDrive](https://github.com/maferrag/AgentDrive/))
 [![Paper](https://img.shields.io/badge/paper-PDF-red)](link-to-paper)
 
-## Datasets
+## Available Datasets
+There are currently three types of datasets available: AgentDrive-Gen, AgentDrive-Sim, and AgentDrive-MCQ.
+
 - **AgentDrive-Gen**: 300K structured, simulation-ready JSON scenarios across seven axes (scenario type, driver behavior, environment, road layout, objective, difficulty, traffic density).
 
 <details>
