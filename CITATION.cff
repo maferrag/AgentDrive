@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use AgentDrive in your work, please cite this repository."
+title: "AgentDrive: An Open Benchmark Dataset for Agentic AI Reasoning with LLM-Generated Scenarios in Autonomous Systems"
+authors:
+  - family-names: Ferrag
+    given-names: Mohamed Amine
+  - family-names: Lakas
+    given-names: Abderrahmane
+  - family-names: Debbah
+    given-names: Merouane
+date-released: 2025-10-17
+repository-code: "https://github.com/USER/AgentDrive"
+license: Apache-2.0

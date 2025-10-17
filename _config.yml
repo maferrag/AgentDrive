@@ -1,0 +1,5 @@
+title: AgentDrive
+description: Open benchmark suite: AgentDrive-Gen, AgentDrive-Sim, AgentDrive-MCQ
+theme: jekyll-theme-minimal
+logo: /docs/assets/figures/logo.png
+show_downloads: true
