@@ -15,18 +15,203 @@ We conducted a large-scale evaluation of fifty leading LLMs on the AgentDrive_MC
 
 ## Datasets
 - **AgentDrive-Gen**: 300K structured, simulation-ready JSON scenarios across seven axes (scenario type, driver behavior, environment, road layout, objective, difficulty, traffic density).
-- **AgentDrive-Sim**: Executed rollouts with surrogate safety metrics (e.g., min-TTC) and categorical outcomes: `safe_goal`, `safe_stop`, `inefficient`, `unsafe`.
-- **AgentDrive-MCQ**: 100K multiple-choice questions spanning five styles: `physics`, `policy`, `hybrid`, `scenario`, `comparative`.
-
 
 <details>
 <summary>Click to expand JSON example</summary>
 
 ```json
 {
-  "key": "value",
-  "another": "example"
+  "name": "ObstacleOnRoad_WetHighway_v1",
+  "seed": 42,
+  "duration_steps": 600,
+  "policy_frequency": 10,
+  "road": {
+    "lanes": 2,
+    "speed_limit_kph": 100
+  },
+  "traffic_light": {
+    "stopline_x": -50.0,
+    "red_steps": 0,
+    "green_steps": 0
+  },
+  "environment": {
+    "weather": "wet",
+    "time_of_day": "day",
+    "visibility": "good"
+  },
+  "layout": "straight highway",
+  "objective": "respond safely to road obstacle",
+  "difficulty": "easy",
+  "traffic_density": "high",
+  "ego": {
+    "spawn": {
+      "x": -100.0,
+      "y": 0.0,
+      "v_mps": 27.78
+    },
+    "goal": "safe stopping"
+  },
+  "traffic": [
+    {
+      "type": "car",
+      "behavior": "convoy_follower",
+      "lane": 0,
+      "spawn_x": -90.0,
+      "v_mps": 27.78
+    },
+    {
+      "type": "car",
+      "behavior": "convoy_follower",
+      "lane": 0,
+      "spawn_x": -80.0,
+      "v_mps": 27.78
+    },
+    {
+      "type": "car",
+      "behavior": "convoy_follower",
+      "lane": 0,
+      "spawn_x": -70.0,
+      "v_mps": 27.78
+    },
+    {
+      "type": "car",
+      "behavior": "convoy_follower",
+      "lane": 0,
+      "spawn_x": -60.0,
+      "v_mps": 27.78
+    },
+    {
+      "type": "car",
+      "behavior": "convoy_follower",
+      "lane": 0,
+      "spawn_x": -50.0,
+      "v_mps": 27.78
+    },
+    {
+      "type": "car",
+      "behavior": "convoy_follower",
+      "lane": 0,
+      "spawn_x": -40.0,
+      "v_mps": 27.78
+    },
+    {
+      "type": "car",
+      "behavior": "convoy_follower",
+      "lane": 0,
+      "spawn_x": -30.0,
+      "v_mps": 27.78
+    },
+    {
+      "type": "car",
+      "behavior": "convoy_follower",
+      "lane": 0,
+      "spawn_x": -20.0,
+      "v_mps": 27.78
+    },
+    {
+      "type": "car",
+      "behavior": "convoy_follower",
+      "lane": 0,
+      "spawn_x": -10.0,
+      "v_mps": 27.78
+    }
+  ],
+  "events": [
+    {
+      "t_s": 50.0,
+      "type": "sudden_brake",
+      "actor": 0,
+      "params": {
+        "decel_mps2": 4.0,
+        "duration_s": 2.0
+      }
+    }
+  ],
+  "metrics": [
+    "ttc_front",
+    "red_light_violation",
+    "min_headway",
+    "collisions"
+  ],
+  "axes_echo": {
+    "scenario_type": "obstacle on road",
+    "behavior": "convoy follower",
+    "environment": "wet road after rain",
+    "road_layout": "straight highway",
+    "objective": "respond safely to road obstacle",
+    "difficulty": "easy",
+    "traffic_density": "high"
+  }
 }
+
+```
+</details>
+
+- **AgentDrive-Sim**: Executed rollouts with surrogate safety metrics (e.g., min-TTC) and categorical outcomes: `safe_goal`, `safe_stop`, `inefficient`, `unsafe`.
+
+<details>
+<summary>Click to expand JSON example from AgentDrive-Sim -  Simulation Rollout </summary>
+
+```json
+
+```
+</details>
+
+<details>
+<summary>Click to expand JSON example from AgentDrive-Sim - Labeled by Episode </summary>
+
+```json
+
+```
+</details>
+
+<details>
+<summary>Click to expand JSON example from AgentDrive-Sim - Labeled by Segment </summary>
+
+```json
+
+```
+</details>
+
+- **AgentDrive-MCQ**: 100K multiple-choice questions spanning five styles: `physics`, `policy`, `hybrid`, `scenario`, `comparative`.
+
+<details>
+<summary>Click to expand JSON example from AgentDrive-MCQ - physics </summary>
+
+```json
+
+```
+</details>
+
+<details>
+<summary>Click to expand JSON example from AgentDrive-MCQ - policy </summary>
+
+```json
+
+```
+</details>
+
+<details>
+<summary>Click to expand JSON example from AgentDrive-MCQ - hybrid </summary>
+
+```json
+
+```
+</details>
+
+<details>
+<summary>Click to expand JSON example from AgentDrive-MCQ - scenario </summary>
+
+```json
+
+```
+</details>
+
+<details>
+<summary>Click to expand JSON example from AgentDrive-MCQ - comparative </summary>
+
+```json
+
 ```
 </details>
 
