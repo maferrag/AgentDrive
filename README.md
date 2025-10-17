@@ -52,7 +52,8 @@ The comparative and categorical analysis of 50 evaluated LLMs on the AgentDrive-
 
 ## Top models by highest Overall: SAS vs. SCR
 
-![Description of image](Images/SCR_vs_SAS_Results.png)
+<img src="Images/SCR_vs_SAS_Results.png" width="70%">
+
 
 The figure visualizes the relationship between the Situational Awareness Score (SAS) and the Safety Compliance Rate (SCR) for the top models ranked by Overall Accuracy from the previous Table. The upper-right region of the scatter plot denotes the ideal operational zone, where models achieve both high situational awareness and strong safety compliance.
 
