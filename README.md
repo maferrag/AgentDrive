@@ -18,6 +18,17 @@ We conducted a large-scale evaluation of fifty leading LLMs on the AgentDrive_MC
 - **AgentDrive-Sim**: Executed rollouts with surrogate safety metrics (e.g., min-TTC) and categorical outcomes: `safe_goal`, `safe_stop`, `inefficient`, `unsafe`.
 - **AgentDrive-MCQ**: 100K multiple-choice questions spanning five styles: `physics`, `policy`, `hybrid`, `scenario`, `comparative`.
 
+
+<details>
+<summary>Click to expand JSON example</summary>
+
+```json
+{
+  "key": "value",
+  "another": "example"
+}
+
+
 ## AgentDrive - Architecture Design
 
 The framework for creating the AgentDrive Dataset is illustrated in the figure below.
