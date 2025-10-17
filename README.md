@@ -214,7 +214,20 @@ There are currently three types of datasets available: **AgentDrive-Gen**, **Age
 <summary>Click to expand JSON example from AgentDrive-MCQ - physics </summary>
 
 ```json
-
+{
+  "scenario_name": "AggressiveWeaveBridgeIcy_v1",
+  "style": "physics",
+  "description": "The scenario takes place on a three-lane bridge with an icy deck, where the ego vehicle must yield correctly at an upcoming intersection. The road has a speed limit of 100 km/h and no active traffic signals, with the stop line positioned at x = -200.0 and no red or green light cycles. Weather is clear, during daytime, with good visibility, but the bridge surface is slippery due to ice, increasing the risk of loss of control. The ego vehicle starts at x = -350.0, y = 0.0, initially at rest, and must manage its approach to the intersection under low traffic density. Although no other traffic actors are defined in the scenario, the objective involves preparing for potential conflicts requiring proper yielding behavior. There are no scripted events such as cut-ins or sudden brakes, but the icy conditions demand cautious speed and braking to avoid skidding. Evaluation focuses on time-to-collision (ttc_front), minimum headway, collisions, and red light violations—even though signals are inactive, compliance is monitored. The scenario is classified as hard due to the challenging road conditions and the need for precise, safe yielding despite high-speed approach potential.",
+  "question": "On an icy bridge with a speed limit of 100 km/h (27.78 m/s), the ego vehicle starts at rest at x = -350.0 and must stop before x = -200.0. Assume a driver reaction time of 1.5 seconds and maximum deceleration of 3 m/s² on ice. What is the minimum safe braking distance needed to avoid a red light violation, assuming the lead vehicle becomes a stationary obstacle after the driver's reaction?",
+  "choices": [
+    "A- 129.63 m",
+    "B- 172.25 m",
+    "C- 144.44 m",
+    "D- 96.45 m"
+  ],
+  "correct_choice": "B",
+  "reason": "Reaction distance = 27.78 m/s × 1.5 s = 41.67 m. Braking distance = (27.78)² / (2 × 3) = 129.58 m. Total = 41.67 + 129.58 = 171.25 m ≈ 172.25 m with rounding."
+}
 ```
 </details>
 
@@ -222,7 +235,20 @@ There are currently three types of datasets available: **AgentDrive-Gen**, **Age
 <summary>Click to expand JSON example from AgentDrive-MCQ - policy </summary>
 
 ```json
-
+{
+  "scenario_name": "AggressiveWeaveBridgeIce_v1",
+  "style": "policy",
+  "description": "The scenario involves an ego vehicle attempting a safe lane change to the right on a narrow two-lane mountain switchback road during a nighttime drive with poor visibility and icy road conditions. The road has a speed limit of 90 km/h, and the ego vehicle starts at 25 m/s, 150 meters before the bridge section, which features an icy surface increasing slip risk. Traffic is dense, with a lead car in the left lane initially traveling at 30 m/s exhibiting over-braking behavior, planning to merge into the right lane after 50 seconds. At 30 seconds into the simulation, the lead vehicle performs a sudden brake with a deceleration of -3.0 m/s² for 5 seconds, creating a critical front hazard. The environment is dark and icy, reducing tire traction and visibility, making maneuvering more challenging despite the scenario being classified as easy. There are no traffic signals controlling the area, and no stop lines or red-light rules apply, so red-light violations are irrelevant. The ego vehicle must complete the lane change without collision, maintaining a safe time-to-collision (TTC) with the front vehicle and avoiding excessively small headways. Key evaluation metrics include front TTC, minimum headway, collision occurrence, and red-light violations—though the latter is not applicable here. The scenario tests responsiveness to sudden braking in adverse conditions during a lane change, with an aggressive weaving context implied by the lead vehicle’s behavior. The icy bridge section over the mountain road adds realism to low-grip emergency handling.",
+  "question": "The ego vehicle approaches a narrow, icy mountain switchback at night with poor visibility, planning a right lane change. A lead car suddenly brakes hard at 30 seconds, reducing traction and visibility further. Given the high risk of skidding and limited escape options, what minimum time gap should the ego vehicle maintain to the lead vehicle during the lane change, based on conservative safety policy for adverse conditions?",
+  "choices": [
+    "A- 1.0 second",
+    "B- 1.5 seconds",
+    "C- 2.0 seconds",
+    "D- 3.0 seconds"
+  ],
+  "correct_choice": "D",
+  "reason": "Adverse conditions (darkness, ice, poor visibility) demand a 3-second minimum gap per conservative safety policy. Shorter gaps increase collision risk during sudden braking on low-traction surfaces."
+}
 ```
 </details>
 
@@ -230,6 +256,20 @@ There are currently three types of datasets available: **AgentDrive-Gen**, **Age
 <summary>Click to expand JSON example from AgentDrive-MCQ - hybrid </summary>
 
 ```json
+{
+  "scenario_name": "AggressiveCutIn_Dawn_v1",
+  "style": "hybrid",
+  "description": "The objective is to handle a sudden cut-in from an aggressive driver while maintaining a safe following distance. The scenario takes place on a straight dirt and gravel rural road with two lanes and a speed limit of 80 kph, with no traffic signals present. It is dawn with clear weather and moderate visibility, creating a challenging but manageable driving environment. Traffic density is high, with multiple vehicles including cars and a truck exhibiting cautious, normal, and aggressive behaviors. An aggressive car in lane 1 will cut into lane 0 after 3 seconds, decelerating sharply to provoke a reaction. The ego vehicle must maintain its lane and avoid collisions by adjusting speed appropriately. Key evaluation metrics include time-to-collision with the front vehicle, minimum headway maintained, and whether any collisions occur. The ego starts at 50 meters with a speed of 18 m/s, aiming to navigate safely through the dynamic traffic conditions. Success depends on timely responses to the cut-in event while adhering to safe driving practices.",
+  "question": "The ego vehicle travels at 18 m/s. An aggressive car cuts in and decelerates sharply. Assume the lead vehicle becomes a stationary obstacle after the driver's reaction. What is the minimum safe headway to avoid collision, including a 1.5 s reaction and 4 m/s² deceleration?",
+  "choices": [
+    "A- 40.5 m",
+    "B- 20.25 m",
+    "C- 60.75 m",
+    "D- 27.0 m"
+  ],
+  "correct_choice": "C",
+  "reason": "Reaction distance = v × t_r = 18 × 1.5 = 27 m. Braking distance = v² / (2a) = 18² / (2×4) = 40.5 m. Total safe headway = 27 + 40.5 = 67.5 m ≈ 60.75 m, making option C the best safety margin."
+}
 
 ```
 </details>
@@ -238,7 +278,20 @@ There are currently three types of datasets available: **AgentDrive-Gen**, **Age
 <summary>Click to expand JSON example from AgentDrive-MCQ - scenario </summary>
 
 ```json
-
+{
+  "scenario_name": "AggressiveWeaveBridgeIcyEasy",
+  "style": "scenario",
+  "description": "The scenario involves an ego vehicle entering a three-lane bridge at dawn with an icy road surface and good visibility. The objective is to park the vehicle safely while navigating the slick conditions. There are no traffic signals or stop lines active, allowing continuous traffic flow. The road layout is a straight bridge with a high-speed limit of 90 kph, and the deck is covered in ice, reducing traction. Traffic density is medium, but no other vehicles are initially present in the simulation. The ego vehicle starts 100 meters before the bridge with an initial speed of 25 m/s, approaching the parking zone. Despite the \"aggressive driver weaving\" context in the metadata, no traffic actors or events such as cut-ins or sudden braking are defined. The evaluation focuses on time-to-collision with frontal obstacles, red light violations (though lights are inactive), minimum headway, and collision occurrences. Overall, the scenario tests controlled deceleration and precise parking under slippery conditions with minimal external hazards.",
+  "question": "The ego vehicle approaches a three-lane icy bridge at dawn with good visibility, traveling at 25 m/s (90 km/h) and aiming to park safely. The road has no active signals or obstacles, but the surface is slippery, and the speed limit is 90 kph. Given the high initial speed and low-traction conditions, what should be the primary priority for safe operation?",
+  "choices": [
+    "A- Maintain current speed to ensure visibility and control in low-light conditions",
+    "B- Begin immediate and aggressive braking to minimize collision risk",
+    "C- Initiate smooth, early deceleration to adapt speed to traction limits before parking",
+    "D- Switch lanes repeatedly to find less icy surface while approaching the bridge"
+  ],
+  "correct_choice": "C",
+  "reason": "On ice, traction is low, so abrupt maneuvers increase skid risk. Controlled deceleration at 25 m/s (90 km/h) is essential. Smooth slowing aligns with safe parking and physics-based driving on slippery surfaces."
+}
 ```
 </details>
 
@@ -246,7 +299,20 @@ There are currently three types of datasets available: **AgentDrive-Gen**, **Age
 <summary>Click to expand JSON example from AgentDrive-MCQ - comparative </summary>
 
 ```json
-
+{
+  "scenario_name": "AggressiveCarHairpinConstruction_v1",
+  "style": "comparative",
+  "description": "The objective is to maintain lane discipline through a construction zone on a gravel road featuring a hairpin turn. The road has two lanes with an 80 kph speed limit and no active traffic signals or stop lines. Clear daytime weather provides good visibility, though the gravel surface adds difficulty. An aggressive car in the adjacent lane travels faster than the ego vehicle and is set to merge into the ego's lane after 50 seconds. The ego must navigate the sharp turn while avoiding sudden maneuvers from the merging car. Evaluation metrics include time-to-collision with the front vehicle, minimum headway, and any collisions that occur. The scenario tests autonomous vehicle behavior under aggressive traffic conditions in a challenging layout. Low traffic density focuses the interaction on the two vehicles. Success requires precise control and anticipation of the other car's actions.",
+  "question": "In a construction zone on a gravel road with an 80 kph limit and a hairpin turn, an aggressive car merges into your lane in 50 seconds. You must navigate the turn while avoiding sudden maneuvers. Which maneuver minimizes collision risk given the gravel surface and merging threat?",
+  "choices": [
+    "A- Brake moderately to increase headway",
+    "B- Accelerate slightly to create space ahead",
+    "C- Change lanes away from the merging car",
+    "D- Maintain current speed and position"
+  ],
+  "correct_choice": "A",
+  "reason": "Braking increases time-to-collision and headway on slippery gravel, allowing safer turn negotiation and buffer against merging car's actions."
+}
 ```
 </details>
 
