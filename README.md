@@ -19,9 +19,12 @@ We conducted a large-scale evaluation of fifty leading LLMs on the AgentDrive_MC
 
 The framework for creating the AgentDrive Dataset is illustrated in the figure below.
 
+![Description of image](Images/AgentDrive_Sen.png)
+
 ## AgentDrive-MCQ - Architecture Design
 
 The framework for creating the AgentDrive-MCQ Dataset is illustrated in the figure below.
 
+![Description of image](Images/AgentDrive_MCQ.jpg)
 
 ---
