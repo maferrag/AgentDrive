@@ -1,6 +1,6 @@
-# AgentDrive 
+# AgentDrive : An open benchmark suite for agentic AI reasoning in autonomous systems
 
-<img src="Images/AgentDrive.jpg" width="50%">
+<img src="Images/AgentDrive2.jpg" width="100%">
 
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
 [![GitHub Pages](https://img.shields.io/badge/site-online-brightgreen)]([https://USER.github.io/AgentDrive](https://github.com/maferrag/AgentDrive/))
@@ -328,13 +328,17 @@ Distributions and layout statistics across the AgentDrive scenario dataset, show
 ![Description of image](Images/Distribution_DriveAgent_dataset.png)
 
 
-## Performance Evaluation
+## LLM Leaderboard on AgentDrive
 
 Accuracy (%) results of 50 examined LLM reasoning models evaluated across multiple reasoning styles using 2k samples from AgentDrive-MCQ.
 
 ![Description of image](Images/results_50LLMs.jpg)
 
 The comparative and categorical analysis of 50 evaluated LLMs on the AgentDrive-MCQ benchmark reveals significant diversity in reasoning performance across five distinct dimensions: comparative, hybrid, physics, policy, and scenario. As summarized in the Table, proprietary frontier models such as ChatGPT 4o (82.5%) and GPT-5 Chat (81.0%) from OpenAI dominated the benchmark, achieving perfect or near-perfect accuracy in policy (100%) and scenario (97.5%) reasoning tasks. These results underscore their superior contextual reasoning, ethical prioritization, and adaptability to complex decision-making scenarios. Among open-source systems, Qwen3 235B A22B reached a competitive 81.0% overall accuracy, leading in physics-driven reasoning (67.5%), while ERNIE 4.5 300B A47B achieved 75.0\%, reflecting the growing maturity of Chinese foundation models. Other strong performers, including Mistral Medium 3.1 (80.0%) and GPT-4.1 Mini (77.5%), demonstrated balanced reasoning proficiency across multiple domains, highlighting the value of large-scale fine-tuning and domain adaptation.
+
+<a href="https://github.com/maferrag/AgentDrive/tree/main/results/50%20LLM%20models%20-%20Evaluations">
+📂 <b>Download Evaluation Details (Excel)</b>
+</a>
 
 ## Top models by highest Overall: SAS vs. SCR
 
