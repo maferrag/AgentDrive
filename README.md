@@ -19664,9 +19664,7 @@ If you use <b>AgentDrive</b> or any of its benchmark datasets in your research, 
 
 <p align="center">
   <b>Dr. Mohamed Amine Ferrag</b><br>
-  Associate Professor, United Arab Emirates University (UAEU)<br><br>
 
-  📧 <a href="mailto:mohamed.ferrag@uaeu.ac.ae">mohamed.ferrag@uaeu.ac.ae</a> |
   <a href="mailto:mohamed.amine.ferrag@gmail.com">mohamed.amine.ferrag@gmail.com</a><br><br>
 
   🌐 <a href="https://scholar.google.fr/citations?user=IkPeqxMAAAAJ&hl=fr&oi=ao">Google Scholar</a> |
