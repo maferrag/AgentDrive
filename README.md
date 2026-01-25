@@ -12,6 +12,8 @@ To complement simulation-based evaluation, we introduce **AgentDrive_MCQ**, a 10
 
 We conducted a large-scale evaluation of **fifty leading LLMs** on the AgentDrive_MCQ benchmark to measure their reasoning capabilities across these five dimensions, covering models such as GPT-5, ChatGPT 4o, Gemini 2.5 Flash, DeepSeek V3, Qwen3 235B, ERNIE 4.5 300B, Grok 4, Mistral Medium 3.1, and Phi 4 Reasoning Plus. Results reveal that while proprietary frontier models dominate in contextual and policy reasoning, advanced open models are rapidly closing the gap in structured and physics-grounded reasoning. To support open science and reproducibility, we release the AgentDrive dataset (including labeled data), the AgentDrive-MCQ benchmark, evaluation scripts, and all related materials on GitHub.
 
+👉 If you are looking to evaluate your LLM model using our benchmark, please feel free to contact us at 📩 mohamed.ferrag@uaeu.ac.ae / mohamed.amine.ferrag@gmail.com
+
 ## AgentDrive - Architecture Design
 
 The framework for creating the AgentDrive Dataset is illustrated in the figure below.
