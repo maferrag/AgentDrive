@@ -19649,13 +19649,14 @@ The figure visualizes the relationship between the Situational Awareness Score (
 If you use <b>AgentDrive</b> or any of its benchmark datasets in your research, please cite it as:
 
 ```bibtex
-@misc{Ferrag2025AgentDrive,
-  title = {AgentDrive: An Open Benchmark Dataset for Agentic AI Reasoning with LLM-Generated Scenarios in Autonomous Systems},
-  author = {Mohamed Amine Ferrag, Abderrahmane Lakas, Merouane Debbah},
-  howpublished = {GitHub repository},
-  year = {2025},
-  note = {Available at: \url{https://github.com/maferrag/AgentDrive}},
-  url = {https://github.com/maferrag/AgentDrive}
+@misc{ferrag2026agentdriveopenbenchmarkdataset,
+      title={AgentDrive: An Open Benchmark Dataset for Agentic AI Reasoning with LLM-Generated Scenarios in Autonomous Systems}, 
+      author={Mohamed Amine Ferrag and Abderrahmane Lakas and Merouane Debbah},
+      year={2026},
+      eprint={2601.16964},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2601.16964}, 
 }
 ```
 
